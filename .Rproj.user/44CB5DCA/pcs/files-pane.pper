@@ -1,0 +1,9 @@
+{
+    "path" : "~/Platforms/Repos/HAR-Analysis/UCI HAR Dataset",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
