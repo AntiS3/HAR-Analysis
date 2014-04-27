@@ -34,25 +34,30 @@ As it has been described by [1] - License Reference - the selected features for 
  
 ###### How the time measurements have been processed determines: 
 
-1. The prefix 't' to denote time.
-2. The prefix 'f' to denote frequency domain signals (calculated by using a FFT - Fast Fourier Transform -).
+1. The prefix 't' to denote time
+2. The prefix 'f' to denote frequency domain signals (calculated by using a FFT - Fast Fourier Transform -)
 
 ###### The acceleration signal were separated into
 
 1. Body acceleration signal (tBodyAcc)
 2. Gravity acceleration signal (tGravityAcc)
 
-###### A sufix '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+###### A sufix '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions
 
 ###### How signals were obtained
 
-1. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ).
+1. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+1.1. tBodyAccJerk-XYZ
+1.2. tBodyGyroJerk-XYZ
+
 2. The magnitude of these signals (calculated using the Euclidean norm) to get:
-2.1. tBodyAccMag.
-2.2. tGravityAccMag.
-2.3. tBodyAccJerkMag.
-2.4. tBodyGyroMag.
-2.5. tBodyGyroJerkMag.
+
+2.1. tBodyAccMag
+2.2. tGravityAccMag
+2.3. tBodyAccJerkMag
+2.4. tBodyGyroMag
+2.5. tBodyGyroJerkMag
 
 ###### The variables of interest have been marked as follows:
 
