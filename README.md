@@ -1,8 +1,9 @@
 HAR-Analysis
 ============
 
-### A HAR project analysis for G&C Data course peer assessment
 ### HAR (Human Activity Recognition Using Smartphones Dataset)
+##### A HAR project analysis for G&C Data course peer assessment
+
 ================================================================================
 
 HAR-Analysis is formed by the function 'run_analysis.R'
