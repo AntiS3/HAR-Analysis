@@ -1,7 +1,14 @@
 ### Codebook 
 ============
 
-As it has been described by [1] - License Reference - the features selected for this database come from samples taken from 30 Subjects using smartphones while experiencing 6 activities:
+##### Output file : 'tidydata.txt'
+=================
+The file contains for each subject and each activity the average value of the feature measurements that contains either of the following variables of interest: 
+
+- The mean
+- The standard deviation
+
+As it has been described by [1] - License Reference - the selected features for this database come from samples taken from 30 Subjects using smartphones while experiencing 6 activities:
 
 ##### Activities
 ================
@@ -14,26 +21,40 @@ As it has been described by [1] - License Reference - the features selected for 
 
 ##### Conventions
 ================
-Features conventions works as follows:
+
+###### Origin of the measurements:
 
 1. The accelerometer(Acc)
 2. The gyroscope (Gyro)
  
-A sufix '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. 
+###### How the time measurements have been processed determines: 
 
-The prefix 't' denote time
-The prefix 'f' denote frequency domain signals (calculated by using a FFT - Fast Fourier Transform -).
+1. The prefix 't' to denote time.
+2. The prefix 'f' to denote frequency domain signals (calculated by using a FFT - Fast Fourier Transform -).
 
-The acceleration signal were separated into body and gravity acceleration signals (tBodyAcc and tGravityAcc)
+###### The acceleration signal were separated into
 
-The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag)
+1. Body acceleration signal (tBodyAcc)
+2. Gravity acceleration signal (tGravityAcc)
 
-The variables of interest considered are:
+###### A sufix '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-1. The mean -mean()
-2. The standard Deviation -std()
+###### How signals were obtained
 
-The following are the 66 features (in alphabetical order) reported by the file 'tidydata.txt', ordered by Subjects and Activities:
+1. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ).
+2. The magnitude of these signals (calculated using the Euclidean norm) to get:
+2.1. tBodyAccMag
+2.2. tGravityAccMag
+2.3. tBodyAccJerkMag
+2.4. tBodyGyroMag
+2.5. tBodyGyroJerkMag
+
+###### The variables of interest have been marked as follows:
+
+1. The mean - mean()
+2. The standard Deviation - std()
+
+The list of the 66 features (in alphabetical order) reported by the file 'tidydata.txt', ordered by Subjects and Activities:
 
 "fBodyAcc-mean()-X"
 
