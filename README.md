@@ -24,7 +24,7 @@ subject using 'melt' and 'dcast' functions from 'reshape2' package.
 
 4. Writes casted data as tidy data by providing the file 'tidydata.txt'.
 
-The dataset includes the following files:
+### The dataset includes the following files:
 =========================================
 
 - 'README.md'
