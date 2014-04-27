@@ -3,7 +3,6 @@ HAR-Analysis
 
 ### HAR (Human Activity Recognition Using Smartphones Dataset)
 ##### A HAR project analysis for G&C Data course peer assessment
-
 ================================================================================
 
 HAR-Analysis is formed by the function 'run_analysis.R'
@@ -25,7 +24,7 @@ subject using 'melt' and 'dcast' functions from 'reshape2' package.
 4. Writes casted data as tidy data by providing the file 'tidydata.txt'.
 
 ### The dataset includes the following files:
-=========================================
+==========================================================================
 
 - 'README.md'
 
@@ -53,8 +52,6 @@ in the working directory as it has been described by [1] - License Reference
 The following files are available for the train and test data. Their descriptions are equivalent. 
 
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-
-
 
 
 ---------------------------------------------------------------------------------
