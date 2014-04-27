@@ -13,10 +13,15 @@ As it has been described by [1] - License Reference - the selected features for 
 ##### Activities
 ================
 1 WALKING
+
 2 WALKING_UPSTAIRS
+
 3 WALKING_DOWNSTAIRS
+
 4 SITTING
+
 5 STANDING
+
 6 LAYING
 
 ##### Conventions
@@ -43,11 +48,11 @@ As it has been described by [1] - License Reference - the selected features for 
 
 1. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ).
 2. The magnitude of these signals (calculated using the Euclidean norm) to get:
-2.1. tBodyAccMag
-2.2. tGravityAccMag
-2.3. tBodyAccJerkMag
-2.4. tBodyGyroMag
-2.5. tBodyGyroJerkMag
+2.1. tBodyAccMag.
+2.2. tGravityAccMag.
+2.3. tBodyAccJerkMag.
+2.4. tBodyGyroMag.
+2.5. tBodyGyroJerkMag.
 
 ###### The variables of interest have been marked as follows:
 
