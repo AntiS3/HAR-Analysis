@@ -44,19 +44,22 @@ As it has been described by [1] - License Reference - the selected features for 
 
 ###### A sufix '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions
 
-###### How signals were obtained
-
-1. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+###### The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 
 1.1. tBodyAccJerk-XYZ
+
 1.2. tBodyGyroJerk-XYZ
 
-2. The magnitude of these signals (calculated using the Euclidean norm) to get:
+###### The magnitude of these signals (calculated using the Euclidean norm) to get:
 
 2.1. tBodyAccMag
+
 2.2. tGravityAccMag
+
 2.3. tBodyAccJerkMag
+
 2.4. tBodyGyroMag
+
 2.5. tBodyGyroJerkMag
 
 ###### The variables of interest have been marked as follows:
